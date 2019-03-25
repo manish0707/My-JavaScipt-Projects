@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" /> -->
+    <link rel="stylesheet" href="./Style/css/normalize.css">
+    <link rel="stylesheet" href="./Style/css/skeleton.css">
+    <link rel="stylesheet" href="./Style/customStyle.css.css">
+    <title>Skeleton Cheat Sheet</title>
+</head>
+<body style="margin-top:20px">
+    <!-- <img src="./images/alone.jpg" class="u-align-center" height="200" width="200"> -->
+    <div class="container">
+        <h2 style="text-align:center"> Registration Form</h2>
+        <div class="row">
+            <div class="six columns">
+                <label for="username">Enter Full Name</label>
+                <input type="text" id="username" class="u-full-width" id="username">
+            </div>
+            <div class="six columns">
+                    <label for="username">Select Your Country</label>
+                    <select class="u-full-width" id="selectCountry">
+                        <option>Choose</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>England</option>
+                        <option>Iseral</option>
+                    </select>
+            </div>
+    </div>
+    <div class="row">
+        <div class="four columns">
+            <label for="mail">Enter your Mail Id</label>
+            <input type="text" class="u-full-width" id="mail">
+        </div>
+        <div class="four columns">
+                <label for="mail">Enter Your age</label>
+                <input type="text" class="u-full-width" id="age">
+            </div>
+            <div class="four columns">
+                    <label for="mail">Your Phone Number</label>
+                    <input type="text" class="u-full-width" id="phone">
+                </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label>Select your Favourite Color</label>
+            <input type="radio" value="Black" name="color"> Black<br>
+            <input type="radio" value="Red" name="color"> Red<br>
+            <input type="radio" value="Blue" name="color"> Blue<br>
+            <input type="radio" value="Green" name="color"> Green<br>
+        </div>
+        <div class="six columns">
+                <label>Select your Native language</label>
+                <input type="radio" value="English" name="language"> English<br>
+                <input type="radio" value="Hindi" name="language"> Hindi<br>
+                <input type="radio" value="Black" name="language"> Spanish<br>
+                <input type="radio" value="German" name="language"> German<br>
+            </div>
+    </div>
+    <div class="row">
+            <div class="twelve columns">
+                <label>Tell Us something about you :</label>
+                <textarea class="u-full-width" id="textArea"></textarea>
+            </div>
+        </div>
+        <h5 style="text-align:center" id="error">*Please Fill Out the Details</h5>
+    <div class="row">
+        <div class="twelve columns">
+            <button class="u-full-width button-success" style="font-size:15px" id="submitBtn" >Submit</button>
+        </div>
+    <script src="app.js" ></script>
+</body>
+</html>

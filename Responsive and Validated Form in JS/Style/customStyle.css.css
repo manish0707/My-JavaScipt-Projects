@@ -1,0 +1,22 @@
+body
+{
+    margin: 0px;
+    padding:0px;
+}
+
+input[type="text"],select,textarea
+{
+    border: 2px solid black;
+}
+.container
+{
+    border: 2px solid black;
+    padding: 20px;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+}
+
+#error
+{
+   display:none;
+}
