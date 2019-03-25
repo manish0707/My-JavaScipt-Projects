@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/CustomCss.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <div class="form">
+                <div class="header">
+                    <h5>Car Insurance Quote Online</h5>
+                </div>
+                <div class="main-content">
+                    <form id="form" >
+                        <label for="">Make:</label>
+                        <select class="u-full-width" id="make" >
+                            <option value="">Select</option>
+                            <option value="Asian">Asian</option>
+                            <option value="American">American</option>
+                            <option value="European">European</option>
+                        </select>
+                        <label for="">Year</label>
+                        <select name="year" id="year" class="u-full-width">
+                        </select>
+                        <label for="">Level</label>
+                        <label>
+                        <input type="radio" name="level" value="Basic" checked>Basic
+                        </label>
+                       <label>
+                        <input type="radio" name="level" value="Complete">Complete
+                        </label>
+                         <img src="./img/spinner.gif" alt="">
+                         <div id="result" ></div>
+                        <input type="submit" id="Get-Quote" value="Get-Quote" class="u-full-width button-success">
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" ></script>
+</body>
+</html>

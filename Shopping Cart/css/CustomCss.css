@@ -1,0 +1,80 @@
+#heading
+{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+body
+{
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.card
+{
+    /* border: 1px solid black; */
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px; */
+}
+.card img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* h4
+{
+    text-align: justify;
+} */
+.info-card
+{
+    padding: 10px;
+}
+.info-card h4{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.info-card p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.old-price
+{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.removeBtn
+{
+    text-decoration: none;
+    font-size: 25px;
+}
+.removeBtn
+{
+    text-decoration: none;
+    color: red;
+}
+#emptyMessage
+{
+    color: red;
+}
+#counter
+{
+    margin-left: 10px;
+}
+#themeBtn
+{
+
+}
+
+#PayableAmount
+{
+
+}
+
+

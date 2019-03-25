@@ -1,0 +1,72 @@
+.header
+{
+    width: 100%;
+    background-color: darkcyan;
+    height: 50px;
+}
+.header h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+    color: white;
+}
+body
+{
+    margin-top:20px;
+    background-color: coral;
+}
+.main-content
+{
+    background-color:white;
+}
+.form
+{
+    box-shadow: 50px;
+}
+form
+{
+    padding: 50px;
+}
+
+input[type="submit"]
+{
+    font-size: 15px;
+}
+
+img
+{
+    height: 180px;
+    width: 180px;
+    margin-left: auto;
+	margin-right: auto;
+	display: none;
+    padding: -100px;
+}
+.error
+{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    background-color:lightpink;
+}
+#result
+{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#result p 
+{
+    display: inline;
+}
+#result h4
+{
+    background-color: cyan;
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+}
