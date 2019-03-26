@@ -1,0 +1,31 @@
+#heading
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+}
+body
+{
+    background-color: #0A3D62;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin: 10px;
+    /* font-size: 18px; */
+}
+#app-body
+{
+    background-color: white;
+    padding: 35px;
+    border-radius:10px;
+}
+#generatedNamesHeading
+{
+    text-align: center;
+    display: none;
+}
+
+.list 
+{
+    list-style: none;
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <title>Name Generator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h2 id="heading" >Name Generator</h2>
+            </div>
+        </div>
+
+            <div id="app-body">
+                <div class="row">
+                    <div class="six columns">
+                       <form id="generate-name" >
+                           <label>Filter by Country :</label>
+                           <select class="u-full-width" id="country">
+                               <option value="">Select</option>
+                               <option value="india">India</option>
+                               <option value="argentina">Argentina</option>
+                               <option value="brazil">Brazil</option>
+                               <option value="colombia">Colombia</option>
+                               <option value="costa rica">Costa rica</option>
+                               <option value="france">France</option>
+                               <option value="italy">Italy</option>
+                               <option value="mexico">Mexico</option>
+                               <option value="protugal">Protugal</option>
+                               <option value="japan">Japan</option>
+                           </select>
+                           <label>Gender :</label>
+                           <select class="u-full-width" id="gender" >
+                               <option value="">Select</option>
+                               <option value="male">Male</option>
+                               <option value="female">Female</option>
+                           </select>
+                           <label>Number of Names to Generate:</label>
+                           <input type="text" placeholder="Eg: 10" class="u-full-width" id="quantity" max="50" min="5" ><br>
+                           <input type="submit" value="GENERATE" class="button button-primary u-full-width">
+                       </form>
+                    </div>
+                    <div class="six columns">
+                        <div>
+                            <h4 id="generatedNamesHeading">Generated Names</h4>
+                            <ul class="result">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<script src="app.js" ></script>
+</body>
+</html>
