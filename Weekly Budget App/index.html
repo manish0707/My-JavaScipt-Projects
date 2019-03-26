@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/CustomCss.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="railway" >My Weekly Budget App</h3>
+         <div class="app-body">
+             <div class="row">
+                <div class="six columns" >
+                    <form>
+                        <h5 class="railway" >Add Your Expenses Here!</h5>
+                        <p id="message" ></p>
+                        <label>Name:</label>
+                        <input type="text" class="u-full-width" placeholder="Eg. Transportation" id="expenseName" >
+                        <label>Amount:</label>
+                        <input type="text" class="u-full-width" placeholder="Eg. 20" id="expenseAmount" ><br>
+                        <input type="submit" value="Add" id="addBtn" >
+                    </form>
+                </div>
+                <div class="six columns" >
+                    <h5 class="railway" >List</h5>
+                    <ul id="expenses" >
+                        
+                    </ul><br>
+                    <div class="budget-and-left">
+                        <p>Budget $<span id="total-budget" ></span></p>
+                        <p>Left $<span id="left" ></span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="app.js" ></script>
+</body>
+</html>
