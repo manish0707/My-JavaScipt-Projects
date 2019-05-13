@@ -1,6 +1,5 @@
+
 document.querySelector("#generate-name").addEventListener("submit", loadNames);
-
-
 
 function loadNames(event) {
     event.preventDefault();
@@ -11,6 +10,35 @@ function loadNames(event) {
     const quantity = document.getElementById("quantity").value;
     
     //Building the URL
+    let url = `https://uinames.com/api/?`;
+    //Read the origin and append to the url
+
+    if(origin !== "") {
+        url += `region=${origin}&`;  
+    }
+
+    //Read the gender and append the url
+
+    if(gender !== "") {
+        url += `gender=${gender}&`;
+    }
+    
+    //Read the Amount and append the url
+
+    if(gender !== "") {
+        url += `amount=${quantity}`;
+    }
+
+    //Ajax call
+
+    const xhr = new XMLHttpRequest();
+
+    xhr.open("GET", url, true);
+
+    xhr.onload = function() {
+        if(this.status == 200) {
+
+            const names = JSON.parse(this.responseText );
 
     let url = `https://uinames.com/api/?`;
     //Read the origin and append to the url
@@ -60,5 +88,6 @@ function loadNames(event) {
     }
     
     xhr.send();
-    
+}
+}
 }

@@ -155,6 +155,3 @@ function amountShower(){
 
     PayableAmountElement.textContent = `${(counter * 20)} $`;
 }
-
-
-
