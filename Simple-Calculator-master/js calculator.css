@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("galaxy.jpg");
+    background-size:cover;
+}
+.button
+{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: orange;
+    border-color:blue;
+    border-width: 10px;
+    border-radius: 50px;
+}
+.button:hover
+{
+    background-color: deeppink;
+    border-color: aqua;
+}
+.button:focus
+{
+    outline: none;
+    color: white;
+}
+.output
+{
+    width: 340px;
+    height: 80px;
+    margin:5px;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color:aqua;
+    border-color:blue;
+    border-width: 10px;
+    color: red;
+}
+#box
+{
+    height: 600px;
+    width: 400px;
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    border-radius: 50px;
+}
+#cal
+{
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+#heading
+{
+    font-family: comic sans ms;
+    color:aqua;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+#calculator
+{
+    left: 80px;
+    position: absolute;
+    align-content: center;
+}
